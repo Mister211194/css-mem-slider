@@ -1,0 +1,14 @@
+.footer__logo {
+    margin: 0;
+    padding: 0;
+    width: 13.5rem;
+    height: 5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../../../image/logo-rsschool3.png);
+    transition: 0.2s;
+}
+
+.footer__logo:hover {
+    filter: invert(66%) sepia(65%) saturate(438%) hue-rotate(7deg) brightness(92%) contrast(87%);
+}
