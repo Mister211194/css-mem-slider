@@ -6,46 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="Image/x-icon" href="./image/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="./index.css">
     <title>CSS MEM SLIDER</title>
 </head>
 
-<body>
-    <div class="container">
-        <ul class="slider">
-            <li class="slider__slide-element">
-                <img class="slider__mem" src="" alt="mem_1">
-                <div class="silder__caption-container">
-                    <input class="slider__button" type="radio" id="slide-1" name="slide" checked>
-                    <label class="slider__pseudo-button" for="slide-1"></label>
-                    <figcaption class="slider__mem-caption">Figcaption</figcaption>
+<body class="root">
+    <main>
+        <header class="header">
+            <h1>RSS MEME SLIDER</h1>
+        </header>
+        <section class="slider">
+            <input id="btn-1" type="radio" name="radio-btn" checked>
+            <input id="btn-2" type="radio" name="radio-btn">
+            <input id="btn-3" type="radio" name="radio-btn">
+            <input id="btn-4" type="radio" name="radio-btn">
+            <div class="slider__images">
+                <img class="slider__image" src="./image/meme-1.jpg" alt="I vs Javascript">
+                <img class="slider__image" src="./image/meme-2.jpg" alt="She listens to you">
+                <img class="slider__image" src="./image/meme-3.jpg" alt="Burger battle">
+                <img class="slider__image" src="./image/meme-4.jpg" alt="Hello There">
+            </div>
+            <div class="slider__captions-container">
+                <div class="slider__captions">
+                    <figcaption class="slider__text">I vs Javascript</figcaption>
+                    <figcaption class="slider__text">She listens to you*</figcaption>
+                    <figcaption class="slider__text">Burger battle</figcaption>
+                    <figcaption class="slider__text">Hello There</figcaption>
                 </div>
-            </li>
-            <li class="slider__slide-element">
-                <img src="" alt="mem_2">
-                <div class="silder__caption-container">
-                    <input class="slider__button" type="radio" id="slide-2" name="slide">
-                    <label class="slider__pseudo-button" for="slide-2"></label>
-                    <figcaption class="slider__mem-caption">Figcaption</figcaption>
+                <div class="slider__buttons">
+                    <label for="btn-1"></label>
+                    <label for="btn-2"></label>
+                    <label for="btn-3"></label>
+                    <label for="btn-4"></label>
                 </div>
-            </li>
-            <li class="slider__slide-element">
-                <img src="" alt="mem_3">
-                <div class="silder__caption-container">
-                    <input class="slider__button" type="radio" id="slide-3" name="slide">
-                    <label class="slider__pseudo-button" for="slide-3"></label>
-                    <figcaption class="slider__mem-caption">Figcaption</figcaption>
-                </div>
-            </li>
-            <li class="slider__slide-element">
-                <img src="" alt="mem_4">
-                <div class="silder__caption-container">
-                    <input class="slider__button" type="radio" id="slide-4" name="slide">
-                    <label class="slider__pseudo-button" for="slide-4"></label>
-                    <figcaption class="slider__mem-caption">Figcaption</figcaption>
-                </div>
-            </li>
-        </ul>
-    </div>
+            </div>
+        </section>
+        <footer class="footer">
+
+        </footer>
+    </main>
 </body>
 
 </html>
