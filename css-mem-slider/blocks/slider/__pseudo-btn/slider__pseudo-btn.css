@@ -1,4 +1,4 @@
-.slider__buttons label {
+.slider__pseudo-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -6,7 +6,7 @@
     padding: 1rem;
 }
 
-.slider__buttons label span {
+.slider__pseudo-btn span {
     width: 1.3rem;
     height: 1.3rem;
     background: #a2e7fb;
@@ -15,13 +15,37 @@
     transition: all 0.2s ease-in-out;
 }
 
-.slider__buttons label:hover span{
+.slider__pseudo-btn:hover span{
     background: #fff;
 }
 
-.slider #btn-1:checked ~ .slider__info-container .slider__buttons label:nth-child(1) span,
-.slider #btn-2:checked ~ .slider__info-container .slider__buttons label:nth-child(2) span,
-.slider #btn-3:checked ~ .slider__info-container .slider__buttons label:nth-child(3) span,
-.slider #btn-4:checked ~ .slider__info-container .slider__buttons label:nth-child(4) span {
+.slider #btn-1:checked ~ .slider__info-container .slider__pseudo-btn:nth-child(1) span,
+.slider #btn-2:checked ~ .slider__info-container .slider__pseudo-btn:nth-child(2) span,
+.slider #btn-3:checked ~ .slider__info-container .slider__pseudo-btn:nth-child(3) span,
+.slider #btn-4:checked ~ .slider__info-container .slider__pseudo-btn:nth-child(4) span {
     background: rgb(10, 0, 99);
+}
+
+@media screen and (max-width: 768px){
+    .slider__pseudo-btn{
+        padding: 0.4rem;
+    }
+    .slider__pseudo-btn span{
+        width: 0.7rem;
+        height: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .slider__buttons{
+        order: -1;
+        align-self: flex-end;
+    }
+    .slider__pseudo-btn{
+        padding: 0.4rem;
+    }
+    .slider__pseudo-btn span{
+        width: 0.5rem;
+        height: 0.5rem;
+    }
 }

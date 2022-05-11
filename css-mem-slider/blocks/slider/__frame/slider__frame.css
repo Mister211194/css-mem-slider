@@ -1,5 +1,5 @@
 .slider__frame{
-    padding: 20px;
+    padding: 2rem;
   background-color: #fff5e5;
     box-shadow: 0 2px 1px hsla(0,0%,100%,.2),
                 0 -1px 1px 1px hsla(0,0%,0%,.4),
@@ -10,4 +10,10 @@
     flex-direction: column;
     width: 60vw;
     max-width: 80rem;
+}
+
+@media screen and (max-width: 560px){
+  .slider__frame{
+    padding: 1rem;
+  }
 }

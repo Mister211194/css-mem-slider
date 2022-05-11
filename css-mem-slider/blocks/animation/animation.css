@@ -1,15 +1,15 @@
 
-.slider #btn-2:checked ~ .slider__images .slider__wrapper-images,
+.slider #btn-2:checked ~ .slider__images .slider__images-container,
 .slider #btn-2:checked ~ .slider__info-container .slider__captions .slider__captions-container{
     transform: translateX(-100%);
 }
 
-.slider #btn-3:checked ~ .slider__images .slider__wrapper-images,
+.slider #btn-3:checked ~ .slider__images .slider__images-container,
 .slider #btn-3:checked ~ .slider__info-container .slider__captions .slider__captions-container{
     transform: translateX(-200%);
 }
 
-.slider #btn-4:checked ~ .slider__images .slider__wrapper-images,
+.slider #btn-4:checked ~ .slider__images .slider__images-container,
 .slider #btn-4:checked ~ .slider__info-container .slider__captions .slider__captions-container{
     transform: translateX(-300%);
 }
