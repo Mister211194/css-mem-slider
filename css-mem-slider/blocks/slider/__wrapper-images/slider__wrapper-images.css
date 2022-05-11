@@ -1,0 +1,4 @@
+.slider__wrapper-images{
+    display: flex;
+    transition: .4s ease-in-out;
+}

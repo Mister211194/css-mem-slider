@@ -11,33 +11,39 @@
 </head>
 
 <body class="root">
-    <main>
+    <main class="content">
         <header class="header">
             <h1 class="header__title">RSS MEME SLIDER</h1>
         </header>
         <section class="slider">
-            <input id="btn-1" type="radio" name="radio-btn" checked>
-            <input id="btn-2" type="radio" name="radio-btn">
-            <input id="btn-3" type="radio" name="radio-btn">
-            <input id="btn-4" type="radio" name="radio-btn">
-            <div class="slider__images">
-                <img class="slider__image" src="./image/meme-1.jpg" alt="I vs Javascript">
-                <img class="slider__image" src="./image/meme-2.jpg" alt="She listens to you">
-                <img class="slider__image" src="./image/meme-3.jpg" alt="Burger battle">
-                <img class="slider__image" src="./image/meme-4.jpg" alt="Hello There">
-            </div>
-            <div class="slider__captions-container">
-                <div class="slider__captions">
-                    <figcaption class="slider__text">I vs Javascript</figcaption>
-                    <figcaption class="slider__text">She listens to you*</figcaption>
-                    <figcaption class="slider__text">Burger battle</figcaption>
-                    <figcaption class="slider__text">Hello There</figcaption>
+            <div class="slider__frame">
+                <input class="slider__radio-btn" id="btn-1" type="radio" name="radio-btn" checked>
+                <input class="slider__radio-btn" id="btn-2" type="radio" name="radio-btn">
+                <input class="slider__radio-btn" id="btn-3" type="radio" name="radio-btn">
+                <input class="slider__radio-btn" id="btn-4" type="radio" name="radio-btn">
+                <div class="slider__images">
+                    <div class="slider__wrapper-images">
+                        <img class="slider__image" src="./image/meme-1.jpg" alt="I vs Javascript">
+                        <img class="slider__image" src="./image/meme-2.jpg" alt="She listens to you">
+                        <img class="slider__image" src="./image/meme-3.jpg" alt="Burger battle">
+                        <img class="slider__image" src="./image/meme-4.jpg" alt="Hello There">
+                    </div>
                 </div>
-                <div class="slider__buttons">
-                    <label for="btn-1"></label>
-                    <label for="btn-2"></label>
-                    <label for="btn-3"></label>
-                    <label for="btn-4"></label>
+                <div class="slider__info-container">
+                    <div class="slider__captions">
+                        <div class="slider__captions-container">
+                            <figcaption class="slider__text">I vs Javascript</figcaption>
+                            <figcaption class="slider__text">She listens to you*</figcaption>
+                            <figcaption class="slider__text">Burger battle</figcaption>
+                            <figcaption class="slider__text">Hello There</figcaption>
+                        </div>
+                    </div>
+                    <div class="slider__buttons">
+                        <label class="slider__pseudo-btn" for="btn-1"><span></span></label>
+                        <label class="slider__pseudo-btn" for="btn-2"><span></span></label>
+                        <label class="slider__pseudo-btn" for="btn-3"><span></span></label>
+                        <label class="slider__pseudo-btn" for="btn-4"><span></span></label>
+                    </div>
                 </div>
             </div>
         </section>

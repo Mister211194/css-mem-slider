@@ -1,0 +1,27 @@
+.slider__buttons label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.slider__buttons label span {
+    width: 1.3rem;
+    height: 1.3rem;
+    background: #a2e7fb;
+    border-radius: 50%;
+    border: .3rem solid #a2e7fb;
+    transition: all 0.2s ease-in-out;
+}
+
+.slider__buttons label:hover span{
+    background: #fff;
+}
+
+.slider #btn-1:checked ~ .slider__info-container .slider__buttons label:nth-child(1) span,
+.slider #btn-2:checked ~ .slider__info-container .slider__buttons label:nth-child(2) span,
+.slider #btn-3:checked ~ .slider__info-container .slider__buttons label:nth-child(3) span,
+.slider #btn-4:checked ~ .slider__info-container .slider__buttons label:nth-child(4) span {
+    background: rgb(10, 0, 99);
+}

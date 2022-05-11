@@ -6,7 +6,7 @@ html{
 }
 .root{
     margin: 0;
-    padding: 6rem 0 0 0;
+    padding: 0;
     background-color: #ecfbff;
     min-height: 100%;
 }

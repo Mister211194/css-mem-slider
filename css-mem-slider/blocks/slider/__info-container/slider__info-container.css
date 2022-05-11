@@ -1,0 +1,4 @@
+.slider__info-container{
+    display: flex;
+    justify-content: space-between;
+}
