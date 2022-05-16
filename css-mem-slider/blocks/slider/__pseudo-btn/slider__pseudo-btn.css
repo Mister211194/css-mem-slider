@@ -50,10 +50,6 @@
 }
 
 @media screen and (max-width: 560px){
-    .slider__buttons{
-        order: -1;
-        align-self: flex-end;
-    }
     .slider__pseudo-btn{
         padding: 0.4rem;
     }
