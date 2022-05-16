@@ -1,0 +1,10 @@
+.slider__captions{
+    width: 60%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 560px){
+    .slider__captions{
+        padding-left: 0;
+    }
+}

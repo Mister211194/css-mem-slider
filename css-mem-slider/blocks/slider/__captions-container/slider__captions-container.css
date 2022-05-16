@@ -1,0 +1,4 @@
+.slider__captions-container{
+    display: flex;
+    transition: .4s ease-in-out;
+}

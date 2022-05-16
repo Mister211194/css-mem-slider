@@ -1,0 +1,12 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+.root{
+    margin: 0;
+    padding: 0;
+    background-color: #ecfbff;
+    min-height: 100%;
+}
